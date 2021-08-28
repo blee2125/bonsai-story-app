@@ -11,9 +11,10 @@ const EntryCard = (props) => {
                 
                 <h3>{entry.notes}</h3>
                 <p>{entry.image_url}</p>
+                <p>{entry.entry_date}</p>
             </div>
         </div>
     )
 };
 
-export default TreeCard;
+export default EntryCard;
